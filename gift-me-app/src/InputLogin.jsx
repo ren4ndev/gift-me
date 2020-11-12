@@ -6,14 +6,14 @@ class InputLogin extends React.Component {
       <div className="field">
         <label className="label">Login</label>
         <div className="control has-icon-left">
-          <input className="input"
+          <input className="input is-rounded"
             type="text"
             name="login"
             value={this.props.value}
             onChange={this.props.handleFunc}
           />
           <span className="icon is-small is-left">
-            <i className="fas fa-user"></i>
+            {/* <i className="fas fa-user"></i> */}
           </span>
         </div>
       </div>

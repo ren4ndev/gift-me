@@ -6,7 +6,7 @@ class Logo extends React.Component {
   render() {
     return (
       <div className="Logo">
-        GiftMe!<FontAwesomeIcon icon={faGift} />
+        GiftMe! <FontAwesomeIcon icon={faGift} />
       </div>
     );
   }

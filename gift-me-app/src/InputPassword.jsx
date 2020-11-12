@@ -6,14 +6,14 @@ class InputPassword extends React.Component {
       <div className="field">
         <label className="label">Senha</label>
         <div className="control has-icon-left">
-          <input className="input"
-            type="text"
+          <input className="input is-rounded"
+            type="password"
             name="password"
             value={this.props.value}
             onChange={this.props.handleFunc}
           />
           <span className="icon is-small is-left">
-            <i className="fas fa-lock"></i>
+            {/* <i className="fas fa-lock"></i> */}
           </span>
         </div>
       </div>

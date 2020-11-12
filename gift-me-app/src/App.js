@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './bulma.min.css';
-// import './all.css';
+import './css/all.css';
 import Logo from './Logo';
 import LoginForm from './LoginForm';
 
