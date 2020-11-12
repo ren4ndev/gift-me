@@ -11,6 +11,7 @@ class InputPassword extends React.Component {
             name="password"
             value={this.props.value}
             onChange={this.props.handleFunc}
+            placeholder="Insira sua Senha"
           />
           <span className="icon is-small is-left">
             {/* <i className="fas fa-lock"></i> */}

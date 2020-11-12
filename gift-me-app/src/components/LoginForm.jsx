@@ -1,6 +1,8 @@
 import React from 'react';
 import InputLogin from './InputLogin';
 import InputPassword from './InputPassword';
+import ButtonSubmit from './ButtonSubmit';
+import SignIn from './SignIn';
 
 class LoginForm extends React.Component {
   constructor(props) {
@@ -22,6 +24,8 @@ class LoginForm extends React.Component {
       <div>
         <InputLogin value={this.state.login} handleFunc={this.handleChange} />
         <InputPassword value={this.state.password} handleFunc={this.handleChange} />
+        <ButtonSubmit />
+        <SignIn />
       </div>
     );
   }

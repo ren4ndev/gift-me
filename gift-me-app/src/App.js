@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import './bulma.min.css';
 import './css/all.css';
-import Logo from './Logo';
-import LoginForm from './LoginForm';
+import Logo from './components/Logo';
+import LoginForm from './components/LoginForm';
 
 class App extends React.Component {
   render() {

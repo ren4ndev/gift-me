@@ -11,6 +11,7 @@ class InputLogin extends React.Component {
             name="login"
             value={this.props.value}
             onChange={this.props.handleFunc}
+            placeholder="Insira seu Email"
           />
           <span className="icon is-small is-left">
             {/* <i className="fas fa-user"></i> */}
